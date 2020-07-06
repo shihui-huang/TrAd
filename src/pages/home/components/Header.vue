@@ -23,7 +23,7 @@ export default {
 // 1rem = 50px
 
 <style lang="stylus" scoped>
-  @import '~@/assets/styles/varibles.styl'
+  @import '~styles/varibles.styl'
   .header
     display: flex
     height: .86 rem
