@@ -23,10 +23,11 @@ export default {
 // 1rem = 50px
 
 <style lang="stylus" scoped>
+  @import '~@/assets/styles/varibles.styl'
   .header
     display: flex
     height: .86 rem
-    background : #00bcd4
+    background : $bgColor
     color:#fff
     .header-left
       width .64 rem
