@@ -9,7 +9,7 @@
        Where are you going ?
     </div>
     <div class="header-right">City
-      <span class="iconfont" arrow-icon> &#xe64a; </span>
+      <span class="iconfont arrow-icon"> &#xe64a; </span>
     </div>
 
   </div>
@@ -50,6 +50,5 @@ export default {
       float: right
       text-align: center
       .arrow-icon
-        margin-left : .2 rem
-        font-size : .2 rem
+        font-size : .22 rem
 </style>
