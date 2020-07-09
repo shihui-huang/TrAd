@@ -1,6 +1,9 @@
 <template>
 <div>
-    <div class="recommend-title"></div>
+    <div class="recommend-title">
+        <div class="title-square"> </div>
+        <div class="title-text">Popular sites</div>
+    </div>
     <ul v-for="item of recommendList" :key="item.id">
       <li class="item border-bottom">
           <img class="item-img" :src='item.imgUrl' />
@@ -34,11 +37,6 @@ export default {
         title: 'The Royal Horseguards',
         description: 'description description',
         imgUrl: '//media-cdn.tripadvisor.com/media/photo-s/1b/45/12/3c/exterior.jpg'
-      }, {
-        id: '0004',
-        title: 'The Royal Horseguards',
-        description: 'description description',
-        imgUrl: '//media-cdn.tripadvisor.com/media/photo-s/1b/45/12/3c/exterior.jpg'
       }]
     }
   }
@@ -50,10 +48,20 @@ export default {
 @import '~styles/varibles.styl'
   .recommend-title
     margin-top: .2 rem
-    height :.1 rem
-    line-height :.5 rem
-    background : #eee
-    text-indent : .2 rem
+    margin-left : .1 rem
+    height:.5 rem
+    justify-item : center
+    margin-bottom : .2 rem
+    .title-square
+        width: 0.15 rem
+        height : .5 rem
+        display : inline
+        float :left
+        background-color:$bgColor
+    .title-text
+        line-height :.5 rem
+        text-indent: .2 rem
+        font-weight: bold
   .item
     display :flex
     height :1.9 rem
