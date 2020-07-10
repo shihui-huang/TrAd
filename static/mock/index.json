@@ -1,0 +1,94 @@
+{
+    "ret": true,
+    "data": {
+        "city":"Paris",
+        "swiperList": [{
+            "id": "0001",
+            "imgUrl": "//imgs.qunarzz.com/vc/6d/9f/35/b8ad5468f73fd60ec0ced086f6.jpg_92.jpg"
+            }, {
+            "id": "0002",
+            "imgUrl": "//imgs.qunarzz.com/vc/e3/a1/71/f498dfd3bed948d623c9093252.jpg_92.jpg"
+            }, {
+            "id": "0003",
+            "imgUrl": "//imgs.qunarzz.com/vs_ceph_vcimg/b8c4527c41649814cc4cf86880abba54.jpeg"
+        }],
+        "iconList": [{
+            "id": "1",
+            "imgUrl": "//picbed.qunarzz.com/01d2f57f920666364197a850dab859a8.png",
+            "text": "hotel"
+          }, {
+            "id": "2",
+            "imgUrl": "//picbed.qunarzz.com/83af731055e121a3251690b225327b56.png",
+            "text": "flight"
+          }, {
+            "id": "3",
+            "imgUrl": "//picbed.qunarzz.com/5b6737be49ca243072ca614f07803b83.png",
+            "text": "train"
+          }, {
+            "id": "4",
+            "imgUrl": "//picbed.qunarzz.com/1e107321f5396ea4994cd832232ecf8a.png",
+            "text": "train"
+          }, {
+            "id": "5",
+            "imgUrl": "//picbed.qunarzz.com/c65b3bb7571a6bd62df669213e44b84d.png",
+            "text": "train"
+          }, {
+            "id": "6",
+            "imgUrl": "//picbed.qunarzz.com/f6bb08a239ce1b038204120a8d1e4669.png",
+            "text": "train"
+          }, {
+            "id": "7",
+            "imgUrl": "//picbed.qunarzz.com/3a08f360e958ccb2b947049387873ace.png",
+            "text": "train"
+          }, {
+            "id": "8",
+            "imgUrl": "//picbed.qunarzz.com/799d9d090d1625a854194460c8849fee.png",
+            "text": "train"
+          }, {
+            "id": "9",
+            "imgUrl": "//picbed.qunarzz.com/25e3b9f17a21a6e0113c57a23ffccde4.png",
+            "text": "train"
+          }, {
+            "id": "10",
+            "imgUrl": "//picbed.qunarzz.com/19b4f6d2fabd617789fa5aad65b249da.png",
+            "text": "train"
+          }],
+        "recommendList": [{
+            "id": "0001",
+            "title": "The Royal Horseguards",
+            "description": "description description",
+            "imgUrl": "//media-cdn.tripadvisor.com/media/photo-s/1b/45/12/3c/exterior.jpg"
+            }, {
+            "id": "0002",
+            "title": "The Royal Horseguards",
+            "description": "description description",
+            "imgUrl": "//media-cdn.tripadvisor.com/media/photo-s/1b/45/12/3c/exterior.jpg"
+            }, {
+            "id": "0003",
+            "title": "The Royal Horseguards",
+            "description": "description description",
+            "imgUrl": "//media-cdn.tripadvisor.com/media/photo-s/1b/45/12/3c/exterior.jpg"
+        }],
+        "recommendWeekendList": [{
+            "id": "0001",
+            "title": "The Louvre reopened !!!",
+            "description": "description description",
+            "imgUrl": "//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/280px-Louvre_Museum_Wikimedia_Commons.jpg"
+            }, {
+            "id": "0002",
+            "title": "2020 OUTDOOR CINEMA IN PARIS",
+            "description": "Les festivals de cinéma en plein air reviennent dans toute la région parisienne pour cet été 2020",
+            "imgUrl": "//parissecret.com/wp-content/uploads/2019/05/GOLEM13.jpg"
+            }, {
+            "id": "0003",
+            "title": "L/'Atelier des Lumières",
+            "description": "Une création Gianfranco Iannuzzi - Renato Gatto - Massimiliano Siccardi - avec la collaboration musicale de Luca Longobardi",
+            "imgUrl": "//www.atelier-lumieres.com/sites/ceportail/modules/custom/mtlMegaBan/img/ADL.jpg"
+            }, {
+            "id": "0004",
+            "title": "Nice beach",
+            "description": "description description",
+            "imgUrl": "//tribuca.net/img/pictures/2018/08/20180831132507-nice-plage-touriste-web.jpg"
+        }]
+    }
+}
