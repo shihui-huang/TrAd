@@ -8,7 +8,7 @@
        <span class="iconfont"> &#xe632; </span>
        Where are you going ?
     </div>
-    <div class="header-right">City
+    <div class="header-right">{{this.city}}
       <span class="iconfont arrow-icon"> &#xe64a; </span>
     </div>
 
@@ -17,7 +17,10 @@
 
 <script>
 export default {
-  name: 'HomeHearder'
+  name: 'HomeHearder',
+  props: {
+    city: String
+  }
 }
 </script>
 // 1rem = 50px

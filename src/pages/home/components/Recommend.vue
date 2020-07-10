@@ -20,25 +20,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data () {
-    return {
-      recommendList: [{
-        id: '0001',
-        title: 'The Royal Horseguards',
-        description: 'description description',
-        imgUrl: '//media-cdn.tripadvisor.com/media/photo-s/1b/45/12/3c/exterior.jpg'
-      }, {
-        id: '0002',
-        title: 'The Royal Horseguards',
-        description: 'description description',
-        imgUrl: '//media-cdn.tripadvisor.com/media/photo-s/1b/45/12/3c/exterior.jpg'
-      }, {
-        id: '0003',
-        title: 'The Royal Horseguards',
-        description: 'description description',
-        imgUrl: '//media-cdn.tripadvisor.com/media/photo-s/1b/45/12/3c/exterior.jpg'
-      }]
-    }
+  props: {
+    recommendList: Array
   }
 }
 </script>

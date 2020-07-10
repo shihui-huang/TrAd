@@ -21,30 +21,8 @@
 <script>
 export default {
   name: 'HomeWeekendRecommend',
-  data () {
-    return {
-      recommendWeekendList: [{
-        id: '0001',
-        title: 'The Louvre reopened !!!',
-        description: 'description description',
-        imgUrl: '//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/280px-Louvre_Museum_Wikimedia_Commons.jpg'
-      }, {
-        id: '0002',
-        title: '2020 OUTDOOR CINEMA IN PARIS',
-        description: 'Les festivals de cinéma en plein air reviennent dans toute la région parisienne pour cet été 2020',
-        imgUrl: '//parissecret.com/wp-content/uploads/2019/05/GOLEM13.jpg'
-      }, {
-        id: '0003',
-        title: 'L\'Atelier des Lumières',
-        description: 'Une création Gianfranco Iannuzzi - Renato Gatto - Massimiliano Siccardi - avec la collaboration musicale de Luca Longobardi',
-        imgUrl: '//www.atelier-lumieres.com/sites/ceportail/modules/custom/mtlMegaBan/img/ADL.jpg'
-      }, {
-        id: '0004',
-        title: 'Nice beach',
-        description: 'description description',
-        imgUrl: '//tribuca.net/img/pictures/2018/08/20180831132507-nice-plage-touriste-web.jpg'
-      }]
-    }
+  props: {
+    recommendWeekendList: Array
   }
 }
 </script>
