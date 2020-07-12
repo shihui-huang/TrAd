@@ -8,9 +8,11 @@
        <span class="iconfont"> &#xe632; </span>
        Where are you going ?
     </div>
-    <div class="header-right">{{this.city}}
+    <router-link to='city'>
+    <div class="header-right" >{{this.city}}
       <span class="iconfont arrow-icon"> &#xe64a; </span>
     </div>
+    </router-link>
 
   </div>
 </template>
@@ -52,6 +54,7 @@ export default {
       line-height : .86 rem
       float: right
       text-align: center
+      color: white
       .arrow-icon
         font-size : .22 rem
 </style>
