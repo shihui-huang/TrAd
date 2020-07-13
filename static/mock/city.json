@@ -1,0 +1,205 @@
+{
+    "ret": true,
+    "data": {
+        "popularCityList":[{
+            "name": "Paris"
+            }, {
+                "name":"Marseille"
+            }, {
+                "name": "Lyon"
+            }, {
+                "name": "Toulouse"
+            }, {
+                "name": "Nantes"
+            }, {
+                "name": "Strasbourg"
+            }],
+        "cityList": {
+            "A": [{
+                "name": "Angers"
+            }, {
+                "name": "Amiens"
+            }, {
+                "name": "Aix-en-Provence"
+            }, {
+                "name": "Argenteuil"
+            }, {
+                "name": "Avignon"
+            }, {
+                "name": "Aulnay-sous-Bois"
+            }],
+            
+            "B": [{
+                "name": "Bordeaux"
+            }, {
+                "name": "Brest"
+            }, {
+                "name": "Besançon"
+            }, {
+                "name": "Boulogne-Billancourt"
+            }],
+            
+            "C": [{
+                "name": "Clermont-Ferrand"
+            }, {
+                "name": "Caen"
+            }, {
+                "name": "Créteil"
+            }],
+
+            "D": [{
+                "name": "Dijon"
+            }],
+
+            "E": [{
+                "name": "Evry"
+            }, {
+                "name": "Evreux"
+            }],
+
+            "F": [{
+                "name": "Fort-de-France"
+            }, {
+                "name": "Fontenay-sous-Bois"
+            }],
+
+            "G": [{
+                "name": "Grenoble"
+            }],
+
+            "H": [{
+                "name": "Hyères"
+            }],
+
+            "I": [{
+                "name": "Ivry"
+            }, {
+                "name": "Issy-les-Moulineaux"
+            }],
+
+            "J": [{
+                "name": "Clermont-Ferrand"
+            }, {
+                "name": "Caen"
+            }, {
+                "name": "Créteil"
+            }],
+
+            "K": [{
+                "name": "Clermont-Ferrand"
+            }, {
+                "name": "Caen"
+            }, {
+                "name": "Créteil"
+            }],
+
+            "L": [{
+                "name": "Lyon"
+            }, {
+                "name": "Lille"
+            }, {
+                "name": "Le Havre"
+            }, {
+                "name": "Limoges"
+            }, {
+                "name": "Le mans"
+            }],
+
+            "M": [{
+                "name": "Marseille"
+            }, {
+                "name": "Metz"
+            }, {
+                "name": "Montpellier"
+            }, {
+                "name": "Montreuil"
+            }, {
+                "name": "Mulhouse"
+            }],
+
+            "N": [{
+                "name": "Nantes"
+            }, {
+                "name": "Nîmes"
+            }, {
+                "name": "Nancy"
+            }, {
+                "name": "Nanterre"
+            }],
+
+            "O": [{
+                "name": "Orléans"
+            }],
+
+            "P": [{
+                "name": "Paris"
+            }, {
+                "name": "Perpignan"
+            }, {
+                "name": "Poitiers"
+            }],
+
+            "Q": [{
+                "name": "Quimper"
+            }],
+
+            "R": [{
+                "name": "Rennes"
+            }, {
+                "name": "Reims"
+            }, {
+                "name": "Roubaix"
+            }, {
+                "name": "Rouen"
+            }],
+
+            "S": [{
+                "name": "Strasbourg"
+            }, {
+                "name": "Saint-Étienne"
+            }, {
+                "name": "Saint-Paul"
+            }, {
+                "name": "Saint-Denis"
+            }],
+
+            "T": [{
+                "name": "Toulouse"
+            }, {
+                "name": "Toulon"
+            }, {
+                "name": "Tours"
+            }, {
+                "name": "Tourcoing"
+            }],
+
+            "U": [{
+
+            }],
+
+            "V": [{
+                "name": "Villeurbanne"
+            }, {
+                "name": "Versailles"
+            }, {
+                "name": "Vitry-sur-Seine"
+            }],
+
+            "W": [{
+
+            }],
+
+            "X": [{
+
+            }],
+
+            "Y": [{
+
+            }],
+
+            "Z": [{
+
+            }]
+        }
+    }
+}

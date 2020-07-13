@@ -12,42 +12,15 @@
             <div class="area">
                 <div class="title border-topbottom" > Popular cities </div>
                 <div class="button-list">
-                    <div class="button-wrapper">
-                        <div class="button">Nice</div>
-                    </div>
-                    <div class="button-wrapper">
-                        <div class="button">Lyon</div>
-                    </div>
-                    <div class="button-wrapper">
-                        <div class="button">Paris</div>
-                    </div>
-                    <div class="button-wrapper">
-                        <div class="button">Rouen</div>
-                    </div>
-                    <div class="button-wrapper">
-                        <div class="button">Bordeaux</div>
+                    <div class="button-wrapper" v-for="item of popularCityList" :key="item.name">
+                        <div class="button">{{item.name}}</div>
                     </div>
                 </div>
             </div>
-
-            <div class="area">
-                <div class="title border-topbottom"> A </div>
-                <div class="item-list">
-                    <div class="item border-bottom"> Amiens </div>
-                    <div class="item border-bottom"> Amiens </div>
-                    <div class="item border-bottom"> Amiens </div>
-                    <div class="item border-bottom"> Amiens </div>
-                    <div class="item border-bottom"> Amiens </div>
-                </div>
-             </div>
-                    <div class="area">
-                <div class="title border-topbottom"> B </div>
-                <div class="item-list">
-                    <div class="item border-bottom"> Bordeaux </div>
-                    <div class="item border-bottom"> Bordeaux </div>
-                    <div class="item border-bottom"> Bordeaux </div>
-                    <div class="item border-bottom"> Bordeaux </div>
-                    <div class="item border-bottom"> Bordeaux </div>
+            <div class="area" v-for="(items, key) of cityList" :key="key">
+                <div class="title border-topbottom"> {{key}} </div>
+                <div class="item-list" v-for="item of items" :key="item.name">
+                    <div class="item border-bottom"> {{item.name}} </div>
                 </div>
              </div>
         </div>
@@ -58,6 +31,10 @@
 import Bscroll from 'better-scroll'
 export default {
   name: 'CityList',
+  props: {
+    cityList: Object,
+    popularCityList: Array
+  },
   mounted () {
     this.scroll = new Bscroll(this.$refs.wrapper)
   }
