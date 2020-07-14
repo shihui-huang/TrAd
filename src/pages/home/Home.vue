@@ -49,7 +49,6 @@ export default {
         this.recommendList = data.recommendList
         this.recommendWeekendList = data.recommendWeekendList
       }
-      console.log(res)
     }
   },
   mounted () {
