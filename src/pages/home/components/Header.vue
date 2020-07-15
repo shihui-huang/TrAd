@@ -9,8 +9,9 @@
        Where are you going ?
     </div>
     <router-link to='city'>
-    <div class="header-right" >{{this.city}}
-      <span class="iconfont arrow-icon"> &#xe64a; </span>
+    <div class="header-right" >
+      <div class="text">{{this.$store.state.city}} </div>
+      <div class="iconfont arrow-icon"> &#xe64a; </div>
     </div>
     </router-link>
 
@@ -19,10 +20,7 @@
 
 <script>
 export default {
-  name: 'HomeHearder',
-  props: {
-    city: String
-  }
+  name: 'HomeHearder'
 }
 </script>
 // 1rem = 50px
@@ -50,11 +48,22 @@ export default {
       color : #ccc
       padding-left : .2 rem
     .header-right
+      margin-left: .2rem
+      height: .86 rem
       width: 1.24 rem
       line-height : .86 rem
-      float: right
+      float: left
       text-align: center
       color: white
+      .text
+        overflow: hidden;
+        height: 0.86rem;
+        float: left;
+        width: 0.7rem;
       .arrow-icon
-        font-size : .22 rem
+        height: 0.86rem;
+        float: left;
+        width: 0.2rem;
+        margin-left: 0.1rem;
+        font-size: 0.22rem;
 </style>
