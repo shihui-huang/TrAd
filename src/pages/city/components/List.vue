@@ -32,9 +32,9 @@ import Bscroll from 'better-scroll'
 export default {
   name: 'CityList',
   props: {
-    cityList: Object,
+    cityList: {},
     popularCityList: Array,
-    letter: String
+    letter: ''
   },
   mounted () {
     this.scroll = new Bscroll(this.$refs.wrapper)

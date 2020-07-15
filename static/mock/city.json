@@ -78,19 +78,19 @@
             }],
 
             "J": [{
-                "name": "Clermont-Ferrand"
+                "name": "Jacou"
             }, {
-                "name": "Caen"
+                "name": "Jaligny-sur-Besbre"
             }, {
-                "name": "Créteil"
+                "name": "Janzé"
             }],
 
             "K": [{
-                "name": "Clermont-Ferrand"
+                "name": "Kalhausen"
             }, {
-                "name": "Caen"
+                "name": "Kaltenhouse"
             }, {
-                "name": "Créteil"
+                "name": "Kanfen"
             }],
 
             "L": [{
@@ -121,6 +121,8 @@
                 "name": "Nantes"
             }, {
                 "name": "Nîmes"
+            }, {
+                "name": "Nice"
             }, {
                 "name": "Nancy"
             }, {
@@ -174,7 +176,7 @@
             }],
 
             "U": [{
-
+                "name": "Urcay"
             }],
 
             "V": [{
@@ -186,19 +188,19 @@
             }],
 
             "W": [{
-
+                "name": "Walscheid"
             }],
 
             "X": [{
-
+                "name": "Xaffevillers"
             }],
 
             "Y": [{
-
+                "name": "Yversay"
             }],
 
             "Z": [{
-
+                "name": "Zaessingue"
             }]
         }
     }

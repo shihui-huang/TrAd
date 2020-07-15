@@ -15,7 +15,7 @@
 export default {
   name: 'CityAlphabet',
   props: {
-    cityList: Object
+    cityList: {}
   },
   computed: {
     letters () {
