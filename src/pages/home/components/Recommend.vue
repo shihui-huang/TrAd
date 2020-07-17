@@ -4,15 +4,21 @@
         <div class="title-square"> </div>
         <div class="title-text">Popular sites</div>
     </div>
-    <ul v-for="item of recommendList" :key="item.id">
-      <li class="item border-bottom">
+    <ul>
+      <!-- 相当于在<li>里面再加一个<router-link> routerlink 会把样式变为a标签 这样能防止变 -->
+      <router-link
+      tag="li"
+      class="item border-bottom"
+      v-for="item of recommendList"
+      :key="item.id"
+      :to="'/detail/' + item.id" >
           <img class="item-img" :src='item.imgUrl' />
           <div class="item-info">
             <p class="item-title">{{item.title}}</p>
             <p class="item-description"> {{item.description}} </p>
             <button class="item-button">detail</button>
         </div>
-      </li>
+      </router-link>
     </ul>
 </div>
 </template>
