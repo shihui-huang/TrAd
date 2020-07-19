@@ -1,18 +1,41 @@
 <template>
-    <div class="banner">
-        <img class="banner-img" src="//www.parkgrandlondon.com/blog/wp-content/uploads/2019/04/shutterstock_131155331.jpg"/>
-        <div class="banner-info">
-            <div class="banner-title">Trafalgar Square - Londre</div>
-            <div class="banner-number">
-                <span class="iconfont banner-icon"> &#xe692; </span>
+    <div>
+        <div class="banner" @click="handleBannerClick" >
+            <img class="banner-img" src="//www.parkgrandlondon.com/blog/wp-content/uploads/2019/04/shutterstock_131155331.jpg"/>
+            <div class="banner-info">
+                <div class="banner-title">Trafalgar Square - Londre</div>
+                <div class="banner-number">
+                    <span class="iconfont banner-icon"> &#xe692; </span>
+                </div>
             </div>
         </div>
+          <common-gallary :imgs="imgs" v-show="showGallary" @disappear="cancelBannerClick"></common-gallary>
     </div>
 </template>
 
 <script>
+import CommonGallary from 'common/gallary/Gallary'
 export default {
-  name: 'DeatilBanner'
+  name: 'DeatilBanner',
+  data () {
+    return {
+      showGallary: false,
+      imgs: ['//www.willpearson.co.uk/wp-content/uploads/2013/04/trafalgar-square-panorama.jpg',
+        '//www.parkgrandlondon.com/blog/wp-content/uploads/2016/07/shutterstock_140801782.jpg',
+        '//www.parkgrandlondon.com/blog/wp-content/uploads/2017/02/shutterstock_617406509.jpg']
+    }
+  },
+  methods: {
+    handleBannerClick () {
+      this.showGallary = true
+    },
+    cancelBannerClick () {
+      this.showGallary = false
+    }
+  },
+  components: {
+    CommonGallary
+  }
 }
 </script>
 
