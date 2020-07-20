@@ -31,10 +31,12 @@ export default {
       }
     }
   },
-  created () {
+  // 页面展示时执行
+  activated () {
     window.addEventListener('scroll', this.handleScroll)
   },
-  destroyed () {
+  // 页面被切换或被隐藏时执行
+  deactivated () {
     window.removeEventListener('scroll', this.handleScroll)
   },
   methods: {
