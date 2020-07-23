@@ -17,12 +17,12 @@
 import CommonGallary from 'common/gallary/Gallary'
 export default {
   name: 'DeatilBanner',
+  props: {
+    imgs: Array
+  },
   data () {
     return {
-      showGallary: false,
-      imgs: ['//www.willpearson.co.uk/wp-content/uploads/2013/04/trafalgar-square-panorama.jpg',
-        '//www.parkgrandlondon.com/blog/wp-content/uploads/2016/07/shutterstock_140801782.jpg',
-        '//www.parkgrandlondon.com/blog/wp-content/uploads/2017/02/shutterstock_617406509.jpg']
+      showGallary: false
     }
   },
   methods: {

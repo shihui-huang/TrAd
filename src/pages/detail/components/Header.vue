@@ -15,7 +15,7 @@
       <router-link to="/" tag="div">
         <div class="iconfont header-fixed-back">&#xe624;</div>
       </router-link>
-      景点详情
+      Attractions Details
     </div>
   </div>
 </template>
