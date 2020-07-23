@@ -2,6 +2,7 @@
     "ret": true,
     "data": {
         "0001": {
+            "name": "Trafalgar Square - Londre",
             "imgs": ["//www.willpearson.co.uk/wp-content/uploads/2013/04/trafalgar-square-panorama.jpg",
                 "//www.parkgrandlondon.com/blog/wp-content/uploads/2016/07/shutterstock_140801782.jpg",
                 "//www.parkgrandlondon.com/blog/wp-content/uploads/2017/02/shutterstock_617406509.jpg"],
@@ -45,41 +46,46 @@
             }]
         },
         "0002": {
-            "info": "A 145-foot-high monument, bearing a statue of Lord Horatio Nelson guarded by lions, marks the spot considered the center of London.",
-            "openHours": [{
-                "Monday": "12:00 AM - 11:59 PM"
-            }, {
-                "Tuesday": "12:00 AM - 11:59 PM"
-            }, {
-                "Wednesday": "'12:00 AM - 11:59 PM'"
-            }, {
-                "Thurday": "'12:00 AM - 11:59 PM'"
-            }, {
-                "Friday": "'12:00 AM - 11:59 PM'"
-            }, {
-                "Saturday": "'12:00 AM - 11:59 PM'"
-            }, {
-                "Sunday": "'12:00 AM - 11:59 PM'"
-            }],
-            "suggestedDuration": "less than one hour",
+            "name": "Central Park - New York",
+            "imgs": ["//media.ceetiz.com/activity/CENNYC006/thumbnails/642x450/central-park-12.jpg",
+                "//3uu1d4351ap21nnz15f9a7fr-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/GettyImages-494607942-1.jpg"],
+            "infos":{
+                "info": "For more than 150 years, visitors have flocked to Central Park's 843 green acres in the heart of Manhattan. Since 1980, the Park has been managed by the Central Park Conservancy, in partnership with the public. Central Park is open 6 am to 1 am daily. Visit the official website of Central Park to learn more about Park happenings and activities and to learn how you to help Central Park!",
+                "openHours": [{
+                    "Monday": "12:00 AM - 11:59 PM"
+                }, {
+                    "Tuesday": "12:00 AM - 11:59 PM"
+                }, {
+                    "Wednesday": "'12:00 AM - 11:59 PM'"
+                }, {
+                    "Thurday": "'12:00 AM - 11:59 PM'"
+                }, {
+                    "Friday": "'12:00 AM - 11:59 PM'"
+                }, {
+                    "Saturday": "'12:00 AM - 11:59 PM'"
+                }, {
+                    "Sunday": "'12:00 AM - 11:59 PM'"
+                }],
+                "suggestedDuration": "less than three hour"
+            },
             "commentList": [{
                 "id": "001",
                 "star": 5,
                 "name": "Smith",
                 "date": "01/05/2020",
-                "content": "We stayed just around the corner so were fortunate to visit here many times on our visit. We sat in a cafe watching the square wake up one chilly morning. Another time we visited the gallery when it was raining  and watched people struggle in the wind with their umbrellas lol. Meandered through on our travels. Love the vibe.,"
+                "content": "Central Park makes the concrete jungle of Manhattan livable for everyone in NYC and anyone who visits. This man-made, 850 acre park is so extensive and so varied that it takes more than one visit to experience the Sheep's Meadow. the Great Lawn, Belvedere Castle, the Delacourt Theater, more than a dozen ball fields, two turtle ponds, a lake, a bike trail, jogging trails, Strawberry Fields, Bethesda Terrace and Fountain, row boat rentals, the Boathouse Cafe, Cleopatra's Needles, about three dozen bridges, the upper lake called Harlem Meer...and the list goes on --  all simply wonderful and all man-made.  Plus, nature's contributions including wildlife from turtles to ducks to hawks, a multitude of songbirds and more.  The park is lively with music and theater in the warm months, a great place for picnics in the summer and  ice skating in the winter.  It's a MUST.  Throughout the park there are posting of phone numbers that enable you to hear the narrative backstory of each area, most recorded by famous New Yorkers."
             }, {
                 "id": "002",
                 "star": 3,
-                "name": "Claire",
+                "name": "Joseph",
                 "date": "01/03/2020",
-                "content": "The square was buzzing with activity. Lots of tourist, especially hanging out by the water fountain. Many top attractions fronting on the square and nearby. Majestic buildings and stately architecture."
+                "content": "Lovely views, great open spaces, excellent people watching, lovely surprises like the Alice in Wonderland statue, the model boat pond, rowing on the lake, strawberry fields, the horse stables, and all of the things you have seen in the movies! And it is FREE!! A great place to take a break from shopping or after a day inside the Met or the Natural History Museum."
             }, {
                 "id": "003",
-                "star": 5,
-                "name": "Richard",
-                "date": "05/01/2020",
-                "content": "A relaxing walk in Trafalgar Square with friends is all you could want. Once you reach the statue guarded by lions, you can consider that you are in the heart of London."
+                "star": 4,
+                "name": "Mika",
+                "date": "05/12/2019",
+                "content": "Had to do the carriage ride in CP. There will be others that try to give you a bike tour for less but that is not what we went there for. Wear good shoes as you will need to walk around a bit. Tour was great."
             }]
         }
     }

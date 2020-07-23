@@ -1,6 +1,6 @@
 <template>
     <div style="background: #f0f0f0">
-        <detail-banner :imgs="imgs"></detail-banner>
+        <detail-banner :imgs="imgs" :name="name"></detail-banner>
         <detail-header></detail-header>
         <detail-infos :infos="infos"></detail-infos>
         <detail-list :commentList="commentList"></detail-list>
@@ -24,6 +24,7 @@ export default {
   data () {
     return {
       id: '',
+      name: '',
       imgs: [],
       infos: '',
       openHours: [],
@@ -45,13 +46,14 @@ export default {
       res = res.data
       if (res.ret && res.data) {
         const data = res.data
+        this.name = data[this.id].name
         this.imgs = data[this.id].imgs
         this.infos = data[this.id].infos
         this.commentList = data[this.id].commentList
       }
     }
   },
-  mounted () {
+  activated () {
     this.getDetailInfo()
   }
 }

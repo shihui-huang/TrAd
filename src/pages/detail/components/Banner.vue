@@ -1,9 +1,9 @@
 <template>
     <div>
         <div class="banner" @click="handleBannerClick" >
-            <img class="banner-img" src="//www.parkgrandlondon.com/blog/wp-content/uploads/2019/04/shutterstock_131155331.jpg"/>
+            <img class="banner-img" :src="img"/>
             <div class="banner-info">
-                <div class="banner-title">Trafalgar Square - Londre</div>
+                <div class="banner-title">{{name}}</div>
                 <div class="banner-number">
                     <span class="iconfont banner-icon"> &#xe692; </span>
                 </div>
@@ -18,11 +18,17 @@ import CommonGallary from 'common/gallary/Gallary'
 export default {
   name: 'DeatilBanner',
   props: {
-    imgs: Array
+    imgs: Array,
+    name: String
   },
   data () {
     return {
       showGallary: false
+    }
+  },
+  computed: {
+    img () {
+      return this.imgs[0]
     }
   },
   methods: {
