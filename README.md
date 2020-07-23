@@ -1,7 +1,10 @@
-# my-project
+# TravelAdvisor
 
-> A Vue.js project
+> A Vue.js web application project
 
+## Demo
+  ![image](https://github.com/shihui0328/TravelAdvisor/blob/master/gif/project-demo.gif)
+ 
 ## Build Setup
 
 ``` bash
